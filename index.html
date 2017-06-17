@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en us">
+<head>
+<meta charset="UTF-8">
+	<title>Crystal Collection</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	 <script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</head>
+<body>
+
+<div class="container"></div>
+
+<div class="row">
+	<div class="col-md-4" style="margin-left: 10px; padding: 5px; background-color: brown; color: white">
+	<h1>Crystals Collector</h1>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-6" style="margin-left: 10px; padding: 5px; background-color: tan; color: green">
+<p>You will be given a random number at the start of the game.</p>
+
+<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score</p>
+
+<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+<p>The value of each crystal is hidden from you until you click on it.</p>
+
+<p>Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4" style="margin-left: 10px; background-color: green; color: navy">
+<h3>RANDOM NUMBER</h3>
+<div id="randomNumber"></div>
+</div>
+
+<div class="col-md-4" style="float: left">
+	<h4>Wins</h4>
+	<div id="winCounter"></div>
+	<h4>Losses</h4>
+	<div id="loseCounter" +wins+></div>
+	<div class="col-md-4" style="float: right">
+	<div id="gameStatus"></div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+<div class="row">
+<div class="col-md-5">
+<div class="panel panel-default">
+<button id="buttonRed"><img src="assets/images/redruby.jpg" height="100" width="100"></button>
+<button id="buttonBlue"><img src="assets/images/bluediamond.jpg" height="100" width="100"></button>
+	<button id="buttonGreen"><img src="assets/images/greenemerald.jpg" height="100" width="125"></button>
+	<button id="buttonYellow"><img src="assets/images/yellowtopaz.jpg" height="100" width="125"></button>
+</div>
+</div>
+</div>
+
+<div class="row">
+	<<h3>Your total score is</h3>
+	<div id="yourScore"></div>
+</div>
+
+
+
+
+</body>
+</html>

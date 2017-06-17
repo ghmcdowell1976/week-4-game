@@ -1,0 +1,13 @@
+Body{background-color: lightblue;
+padding: 15px;}
+
+.container{text-align: center;
+margin-left: 10px;}
+
+#randomNumber{font-size: 30px;}
+
+#yourScore{font-size: 30px;}
+
+#gameStatus{font-size: 60px;
+color:red;}
+
